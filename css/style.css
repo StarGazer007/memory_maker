@@ -1,0 +1,78 @@
+
+  body {
+    background: 	#F5F5F5;
+    font-size: 56px;
+    text-align: center;
+}
+h1{
+    font-family: "Open Sans";
+    font-size: 42px;
+    text-align: center;
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+
+  li {
+    float: left;
+  }
+
+  li a {
+    display: block;
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #111;
+  }
+
+  .active {
+  background-color: #4CAF50;
+}
+
+
+.board{
+  margin: auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  background: white;
+  width: 50%;
+  height: 100%;
+  align-items: center; /* Use another value to see the result */
+  border-radius: 10px;
+  border: 3px dashed black;
+}
+.board > div{
+display: inline-block;
+ margin: 5px 2px;
+ line-height: 3;
+  width:150px;
+  height:200px;
+  background: rgb(34,193,195);
+background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+  background-image: url("../img/default.jpg");
+  color: black;
+  text-shadow: 2px 2px #666;
+  box-shadow: 5px 10px 	#DCDCDC;
+  padding: 0 px;
+  text-align: center;
+  align-items: center;
+  border-radius: 10px;
+  border: solid black 2px;
+
+}
+
+}
